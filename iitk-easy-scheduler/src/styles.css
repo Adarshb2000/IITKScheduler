@@ -1,0 +1,27 @@
+table {
+  @apply table-auto border bg-white text-black;
+}
+
+/* td {
+  @apply border border-white;
+} */
+
+th {
+  @apply border-2 border-rose-100;
+}
+
+tr {
+  @apply hover:bg-white hover:text-black bg-anotherDarkBackground text-white bg-blend-darken;
+}
+
+td {
+  @apply min-w-[10px] border-2 border-rose-100;
+}
+
+.time-table {
+  @apply table-fixed;
+}
+
+.time-table-row {
+  @apply h-16;
+}

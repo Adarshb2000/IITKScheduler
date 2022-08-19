@@ -1,0 +1,4 @@
+.event {
+  @apply h-full flex flex-col items-center justify-center rounded-lg border-y-2 border-x border-black divide-y-2 divide-black overflow-y-auto;
+}
+
